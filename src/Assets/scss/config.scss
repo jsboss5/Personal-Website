@@ -3,8 +3,8 @@ $white: #ffffff;
 $lightGrey: #e6e6e6;
 $darkGrey: #333;
 $red: #ff1755;
-$orange: ffa500;
-
+$orange: #ffa500;
+$almond: #ffcccc;
 @mixin translateY($e){
 -webkit-transform: translateY($e);
     -moz-transform: translateY($e);

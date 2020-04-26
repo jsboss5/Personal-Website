@@ -71,25 +71,29 @@ header {
 }
 
 .homePage{
-    
+    position: absolute;
+    height: 100%;
+    background-color: $almond;
+
     h1{
         font-size: 80px;
         line-height:normal;
-        color: rgb(172, 3, 3);
+        left: 50%;
+        color: rgb(44, 228, 27);
     }
     
     p{
-        font-size: 12px;
+        font-size: 30px;
     }
 
 } 
 
  
 footer{
-   position: absolute;
+   position: fixed;
    bottom: 0px;
     width: 100%;
-    height: 25px;
+    height: 50px;
     background:$darkGrey
 
 }
