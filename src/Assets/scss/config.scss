@@ -1,10 +1,13 @@
 $black: #010000;
 $white: #ffffff;
-$lightGrey: #e6e6e6;
+$lightGrey: #757679;
 $darkGrey: #333;
 $red: #ff1755;
 $orange: #ffa500;
 $almond: #ffcccc;
+$blueGrey: rgb(110, 98, 115);
+
+
 @mixin translateY($e){
 -webkit-transform: translateY($e);
     -moz-transform: translateY($e);

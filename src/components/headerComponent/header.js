@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Logo from "./Photo.jpg";
+import Headshot from "../Images/Photo.jpg";
 
 import{
   Link    //Within react - you don't use anchor tags - don't want to navigate to another page
@@ -13,7 +13,7 @@ class Header extends Component {
   return (
     <header>   
 
-<img src={Logo} alt = "website Logo " />
+<img src={Headshot} alt = "Headshot" />
 
     <nav>
 

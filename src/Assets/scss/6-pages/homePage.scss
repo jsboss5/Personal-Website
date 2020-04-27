@@ -1,0 +1,40 @@
+@import "../config.scss";
+
+
+.homePage{
+    position: absolute;
+    height: 100%;
+    background-color: $lightGrey;
+
+
+
+
+    h1{
+        display: inline-block;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 80px;
+        line-height:normal;
+        margin-left: 50px;
+        top: 100px;
+    }
+    
+    img{
+        //position:absolute;
+        //position: absolute;
+        display: inline-block;
+        vertical-align: middle;
+        width: 20%;
+        //height: 30px;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 30px;
+        font-family: 'Luckiest Guy',cursive;
+        width: 80%;
+    }
+
+} 

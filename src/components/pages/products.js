@@ -7,7 +7,7 @@ import { render } from '@testing-library/react';
 class Products extends Component {
   render() {
   return (
-    <div className="container-fluid">   
+    <div className="homePage">   
 
     <h1>
         Products
