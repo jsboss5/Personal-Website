@@ -13,8 +13,12 @@ class Header extends Component {
   return (
     <header>   
 
-<img src={Headshot} alt = "Headshot" />
+{/* <img src={Headshot} alt = "Headshot" /> */}
 
+    <div className = "logo">
+    Joshua Boss
+    </div>
+    
     <nav>
 
         <ul>
