@@ -13,14 +13,14 @@ class Homepage extends Component {
     
 
     <h1>
-        Bio
+        About Me
     </h1>
    
     <img src={Headshot} alt = "Headshot"/> 
 
 
     <p>
-   My name is Joshua Boss, and I'm sophomore at Duke studying Computer Science, Mathematics and Literature. I am interested in persuing a career in either full stack software engineering or Product Management. I created this webpage using react - I am trying to improve my front end abilities. Thanks for visiting!
+   My name is Joshua Boss, and I'm a sophomore undergraduate at Duke University studying Computer Science, Mathematics and Literature. I am interested in persuing a career in either full stack software engineering or Product Management. I created this webpage using react - I am trying to improve my front end abilities. Thanks for visiting!
 
     </p>
 

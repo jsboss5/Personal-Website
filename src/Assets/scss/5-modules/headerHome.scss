@@ -10,8 +10,14 @@ header {
     
       .logo {
         position: absolute;
+        font-size: 30px;
         top: 50%; left:15px;
         @include translateY(-50%);
+       cursor: pointer;
+        &:hover {
+            color: blue;
+            @include transition(.2s ease-in-out);
+        } 
     }
     
    
@@ -55,7 +61,7 @@ header {
                 line-height:normal;
                 color: $white;
                 &:hover {
-                    color: rgb(248, 137, 10);
+                    color: blue;
                     @include transition(.2s ease-in-out);
                 } 
             }
