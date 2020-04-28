@@ -10,6 +10,7 @@ import{
 import Header from './components/headerComponent/header';
 import Homepage2 from './components/pages/homepageRebecca'; 
 import Footer from './components/footerComponent/footer';
+import Header2 from './components/headerComponent/headerRebecca';
 import Homepage from './components/pages/homePage';
 import Products from './components/pages/products';
 //
@@ -22,8 +23,15 @@ class App extends Component {
   return (
     <Router>
     <div className="App">
-     
-    <Header />
+   
+   {/* As of now this one is the same as below */}
+    <Header2 />
+
+  
+     {/* one below is original attempt */}
+    {/* <Header /> */}
+ 
+ 
   {/* One below is first attempt */}
   {/* <Route exact path='/' component={Homepage} />  */}
   

@@ -16,7 +16,7 @@ class Header extends Component {
 {/* <img src={Headshot} alt = "Headshot" /> */}
 
     <div className = "logo">
-    LinkedIN            GitHub
+    LinkedIN   GitHub
     </div>
     
     <nav>

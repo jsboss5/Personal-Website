@@ -1,0 +1,91 @@
+@import "../config.scss";
+
+header {
+    position: relative;
+    display:black;
+    width: 100%;
+    background: transparent;
+    color: $black;
+    height: 90px;
+    
+    nav,
+    nav ul,
+    nav ul li{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    nav {
+        
+        &.left{
+            position: absolute;
+            top: 50%; left: 15px;
+            @include translateY(-50%);
+
+            ul li {
+                list-style-type: none;
+                display: inline-block;
+                margin-left: 50px;
+               
+    
+                &.last{
+                    margin: 0;
+                }
+            
+                a {
+                    font-size: 19px;
+                    line-height:normal;
+                    color: $black;
+                     &:hover {
+                        color: $baige1;
+                        @include transition(.2s ease-in-out);
+                    }  
+            
+                
+                }
+            }
+
+        }
+
+
+
+        
+        &.right{
+        position: absolute;
+        top: 50%; right: 15px;
+        @include translateY(-50%);
+    
+       
+        
+        
+        ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 50px;
+           
+
+            &.last{
+                margin: 0;
+            }
+        
+            a {
+                font-size: 19px;
+                line-height:normal;
+                color: $black;
+                 &:hover {
+                    color: $baige1;
+                    @include transition(.2s ease-in-out);
+                }  
+        
+            
+            }
+        }
+        
+        } 
+    
+    } 
+
+
+}
