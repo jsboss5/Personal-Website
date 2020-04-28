@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 import{
   BrowserRouter as Router,
   Route,
@@ -39,7 +40,9 @@ class App extends Component {
   <Route exact path='/' component={Homepage2} /> 
 
   
-  <Route exact path='/Products' component={Products} />
+  <Route exact path='/Products' component={Homepage} />
+
+  
 
 {/* One below is first attempt */}
     {/* <Footer /> */}

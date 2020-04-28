@@ -5,7 +5,7 @@ header {
     display:black;
     width: 100%;
     background: transparent;
-    color: $black;
+    color: $christinaBlue;
     height: 90px;
     
     nav,
@@ -34,17 +34,23 @@ header {
                     margin: 0;
                 }
             
-                a {
+                &:hover {
+                    color: $mediumGrey;
+                    transform: translateY(-5px);
+                    @include transition(.2s ease-in-out);
+                    
+                }  
+                /* a {
                     font-size: 19px;
                     line-height:normal;
                     color: $black;
                      &:hover {
                         color: $baige1;
                         @include transition(.2s ease-in-out);
-                    }  
+                    }   
             
                 
-                }
+                }*/
             }
 
         }
@@ -71,11 +77,11 @@ header {
             }
         
             a {
-                font-size: 19px;
+                font-size: 22px;
                 line-height:normal;
-                color: $black;
+                color: $christinaBlue;
                  &:hover {
-                    color: $baige1;
+                    color:$mediumGrey;
                     @include transition(.2s ease-in-out);
                 }  
         
