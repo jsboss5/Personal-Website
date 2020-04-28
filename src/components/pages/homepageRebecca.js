@@ -18,7 +18,7 @@ class Homepage2 extends Component {
             
                   <p>
 
-                  My name is Joshua Boss, and I'm a sophomore undergraduate at Duke University studying Computer Science, Mathematics and Literature. I am interested in persuing a career in either full stack software engineering or Product Management. I created this webpage using react - I am trying to improve my front end abilities. Thanks for visiting!
+                  My name Is Joshua Boss, and I’m a sophomore undergraduate student at Duke University, studying Computer science, Mathematics and Literature. I am interested in pursuing a career in either full stack software engineering or Product Management. I am particularly intrigued by projects and work centered on social equity issues and climate change. I created this webpage as a brief window into me, and an opportunity to improve my react, javascript, html, css, and general front-end development skills. Feel free to check out the other pages to learn more about me. Thanks for visiting!
 
                   </p>
 

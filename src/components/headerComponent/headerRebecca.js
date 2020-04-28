@@ -38,7 +38,7 @@ class Header2 extends Component {
    
    
    
-    <nav class="right">
+    <nav class="bigScreenNav">
 
         <ul>
 
@@ -46,7 +46,7 @@ class Header2 extends Component {
            <Link to="/">Home</Link>            </li>
 
            <li>
-              <Link to="/Products">Products</Link> 
+              <Link to="/oldPage">oldPage</Link> 
            </li>
            <li className="last">
            <Link to="/">Contacts</Link> 
@@ -54,6 +54,19 @@ class Header2 extends Component {
         </ul> 
 
     </nav>
+
+
+<nav class="littleScreenNav">
+
+</nav>
+
+<div class="smallScreenButton">
+  <button onclick="myFunction()" class="dropbtn">pages</button>
+
+</div>
+
+
+
 
     </header>   
  

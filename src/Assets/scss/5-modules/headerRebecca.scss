@@ -56,9 +56,18 @@ header {
         }
 
 
-
+// Basically this is an if statement - if the window size is large
+// then employ the bigscreen nav stuff and make the smalle screen
+// nav stuff display none - 
+        @media only screen and (min-width: 770px){  
         
-        &.right{
+        &.littleScreenNav{
+            display: none;
+        }
+
+        &.bigScreenNav{
+        
+        
         position: absolute;
         top: 50%; right: 15px;
         @include translateY(-50%);
@@ -90,8 +99,35 @@ header {
         }
         
         } 
+        }
+        @media only screen and (max-width: 769px){
+            &.bigScreenNav{
+                display:none;
+            }
+            
+        }
+
+       
+        
+        //The other if statement - basically says if its smaller than 769, make it have
+        //the other html for small screen and make big screen css 0
+       
+
+    
     
     } 
+    
+    //This is for the div stuff / for the button
+   
+   div{
+    @media only screen and (min-width: 769px){   //if its large make the button disappear
+        &.smallScreenButton{
+            display:none;
+        }   
+    }
+   
+//FORMAT BUTTON HERE -- basically else statement
 
 
+}
 }
