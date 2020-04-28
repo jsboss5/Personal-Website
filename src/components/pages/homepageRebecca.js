@@ -11,18 +11,26 @@ class Homepage2 extends Component {
 
     <div  class="homepageRebecca">   
     
-    <img src={Headshot} alt = "Headshot"/> 
+            <img src={Headshot} alt = "Headshot"/> 
 
-    <div >
-    
-    <p>
+        {/* this is my opaque block */}
+            <div >
+            
+                  <p>
 
-    My name is Joshua Boss, and I'm a sophomore undergraduate at Duke University studying Computer Science, Mathematics and Literature. I am interested in persuing a career in either full stack software engineering or Product Management. I created this webpage using react - I am trying to improve my front end abilities. Thanks for visiting!
+                  My name is Joshua Boss, and I'm a sophomore undergraduate at Duke University studying Computer Science, Mathematics and Literature. I am interested in persuing a career in either full stack software engineering or Product Management. I created this webpage using react - I am trying to improve my front end abilities. Thanks for visiting!
 
-    </p>
+                  </p>
 
-    </div>
+            </div>
 
+          <h1>
+            Joshua Boss
+          </h1>
+          
+          <hr class = "top"/>
+
+          <hr class = "bottom"/>
 
 
     </div>   

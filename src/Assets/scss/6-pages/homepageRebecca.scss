@@ -35,10 +35,55 @@
             font-family: 'EB Garamond', serif;
 
         }
-
+}
+h1{
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-family:  'Oswald', sans-serif; 
+    letter-spacing: 12px;
+    font-size: 55px;
 
 }
 
 
+
+
+
+
+hr{
+    &.top{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    
+    //border-bottom: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+
+    position:absolute;
+    margin-top: 0%;
+    }
+
+    &.bottom{
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid black;
+        margin: 1em 0;
+        padding: 0;
+        width: 20%;
+    
+        position:fixed;
+        margin-top: 27%;
+
+    }
+
+
+
+
+}
 
 }
