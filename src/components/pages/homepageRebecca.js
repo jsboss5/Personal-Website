@@ -17,7 +17,7 @@ class Homepage2 extends Component {
     
     <p>
 
-    Text text rebecca is cool but I am cooler, ok I will model it after that you unfortunatly, are not a super model.
+    My name is Joshua Boss, and I'm a sophomore undergraduate at Duke University studying Computer Science, Mathematics and Literature. I am interested in persuing a career in either full stack software engineering or Product Management. I created this webpage using react - I am trying to improve my front end abilities. Thanks for visiting!
 
     </p>
 
