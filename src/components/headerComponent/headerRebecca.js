@@ -67,9 +67,10 @@ class Header2 extends Component {
 
 
 <div>
-      <a href="">
-          <img src = {hamburger} alt = ""/>  
-      </a>
+      <button>
+          <img class = "dropbtn" src = {hamburger} alt = ""/> 
+        </button>
+    
 </div>
 
 
