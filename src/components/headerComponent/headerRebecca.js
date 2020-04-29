@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Headshot from "../Images/Photo.jpg";
 import ReactDOM from 'react-dom';
 import {SocialIcon} from 'react-social-icons';
+import hamburger from "../Images/HamburgerIcon.png";
 
 import{
   Link    //Within react - you don't use anchor tags - don't want to navigate to another page
@@ -40,7 +41,7 @@ class Header2 extends Component {
    
     <nav class="bigScreenNav">
 
-        <ul>
+        <ul class= "bigNav">
 
            <li className="first">
            <Link to="/">Home</Link>            </li>
@@ -51,18 +52,24 @@ class Header2 extends Component {
            <li className="last">
            <Link to="/">Contacts</Link> 
            </li>
+       
+          
         </ul> 
-
+      
     </nav>
 
 
 <nav class="littleScreenNav">
 
+
+
 </nav>
 
-<div class="smallScreenButton">
-  <button onclick="myFunction()" class="dropbtn">pages</button>
 
+<div>
+      <a href="">
+          <img src = {hamburger} alt = ""/>  
+      </a>
 </div>
 
 
