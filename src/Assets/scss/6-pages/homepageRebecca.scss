@@ -1,6 +1,8 @@
 @import "../config.scss";
 
-.homepageRebecca{
+
+@media only screen and (min-width: 769px){     //make it desappear unless window is small
+    .homepageRebecca{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -86,4 +88,4 @@ hr{
 
 }
 
-}
+}}

@@ -12,6 +12,9 @@ import{
 import { render } from '@testing-library/react';
 
 class Header2 extends Component {
+  
+  
+  
   render() {
   return (
     <header>   
@@ -67,17 +70,46 @@ class Header2 extends Component {
 
 
 <div>
-      <button>
+      <button onclick = "myFunction()">
           <img class = "dropbtn" src = {hamburger} alt = ""/> 
-        </button>
+      </button>
     
+    <div class = "menu">
+
+          <li class = "item1">
+            <a href="/"> Home </a>
+          </li>
+          <li class = "item2">
+            <a href="/"> Items </a>
+          </li>
+          <li class = "item3">
+            <a href="/"> yuh </a>
+          </li>
+    </div>
+
+
+
+
 </div>
 
 
+<script>
+    myFunction(){
+
+
+
+
+}
+  
+</script>
 
 
     </header>   
  
+
+
+
+
     );
   }
 }

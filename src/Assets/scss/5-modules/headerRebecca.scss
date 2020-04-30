@@ -154,7 +154,24 @@ header {
         
         
     }
+}
 
+div.menu{
+    
+    
+    background-color: tranparent;
+    display: block;
+    float: right;
+    @include translateY(63px);
+    margin-top: 50% px;
+    height: 100px;
+    width: 100%;
+}
+
+    li{
+        margin-top: 30 px;
+        margin-left: 50%;
+        margin-top: 10px;
     }
 
 
